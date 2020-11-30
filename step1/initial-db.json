@@ -1,0 +1,16 @@
+{
+	"tasks": [
+		{ "id": "0", "text": "Learn about graphql", "done": false },
+		{ "id": "1", "text": "Build a compelling user experience", "done": false },
+		{ "id": "2", "text": "Get VC funded", "done": false },
+		{ "id": "3", "text": "Pivot to blockchain crypto", "done": false },
+		{
+			"id": "4",
+			"text": "Get flowers for mum - mothers day",
+			"done": false,
+			"due": "2021-05-09",
+			"owner": "0"
+		}
+	],
+	"users": [{ "id": "0", "name": "Mark Stripes" }]
+}

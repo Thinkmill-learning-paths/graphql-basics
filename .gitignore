@@ -31,3 +31,7 @@ package-lock.json
 *.sublime-project
 *.sublime-workspace
 .idea
+
+
+# Ignore our generated database files
+temp.db.json

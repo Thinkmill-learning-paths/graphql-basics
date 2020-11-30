@@ -1,0 +1,17 @@
+# Use this graphql schema file to define types for your graphql api.
+
+# The HelloWorld type is an object containing a single property `message` which is of type string.
+type HelloWorld {
+	message: String!
+}
+
+# `Query` is a special type which declares the Query root.
+type Query {
+	# Use Queries for read only operations
+	helloWorld: HelloWorld
+}
+
+# `Mutation` is a special type which declares the mutation root.
+# type Mutation {
+# 	# Use Mutations for create, update and delete operations
+# }
